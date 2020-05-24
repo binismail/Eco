@@ -233,7 +233,7 @@ body{
   }
 
  .intro-2__text{
-      font-size: 80px;
+      font-size: 60px;
       text-transform: uppercase;
       margin: 0;
   }
@@ -253,14 +253,137 @@ body{
       padding: 0;
   }
 
+  .text-item .list-item{
+      display: flex;
+  }
+
+  .fa{
+      margin-right: 20px;
+      color: #4860F8;
+    }
   .text-item li{
       margin-bottom: 25px;
   }
     .intro-2-img__container{
-        width: 50%;
+        /* width: 100%; */
         padding-right: 200px;
     }
 
   .intro-2-img__container img{
       width: 100%;
+  }
+  /* end showcase intro -2 */
+
+  .showcase-intro-3{
+      background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(./img/bg-show.jpg););
+      width: 100%;
+      background-size: cover;
+      box-sizing: border-box;
+      background-position: top;
+      background-repeat: no-repeat;
+      height: 400px;
+      margin-bottom: 100px;
+      position: relative;
+  }
+
+  .center-container{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      display: flex;
+      transform: translate(-50%, -50%);
+      font-size: 19px;
+  }
+
+  .qout-container{
+      font-size: 90px;
+      color: #4860F8;
+      padding-right: 30px;
+      font-weight: 600;
+  }
+
+  .center-container .text-container{
+      color: #f3f3f3;
+      margin-top: 30px;
+      text-align: justify;
+  }
+
+  .showcase-intro-4{
+      display: flex;
+  }
+
+  .text-side-container{
+      padding-left: 80px;
+      margin-top: 70px;
+      margin-right: 70px;
+  }
+
+  .list-side-conatiner{
+      display: flex;
+      margin: 50px 0;
+  }
+
+  .list-side-conatiner .side-num{
+      font-size: 50px;
+      color: #4860F8;
+      font-weight: 600;
+      margin-right: 50px;
+  }
+
+  .init-show--img{
+      width: 50%;
+  }
+
+  .int-show--img img{
+      width: 100%;
+  }
+
+  .showcase-intro-5{
+      display: flex;
+  }
+
+  .intro-5--img{
+      width: 100%;
+      height: 100%;
+  }
+
+  .intro-5-text--container{
+      background: #4860F8;
+      padding-left: 70px;
+      padding-right: 120px;
+      padding-top: 80px;
+      color: #f3f3f3;
+      width: 95%;
+  }
+
+  .intro-5-par-1{
+      font-size: 13px;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin: 0;
+      letter-spacing: 5px;
+  }
+
+  .intro-5-heading{
+      font-size: 60px;
+      text-transform: uppercase;
+      margin: 0;
+  }
+
+  .intro-5-heading span{
+      display: block;
+      margin: 0;
+  }
+
+  .intro-5-par-2{
+      margin-top: 30px;
+  }
+
+  .intro-5-text--container .btn--container{
+      margin: 60px 0;
+  }
+
+  .btn-border-white{
+      color: #f3f3f3;
+      border: 2px solid #f3f3f3;
   }
