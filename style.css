@@ -387,3 +387,25 @@ body{
       color: #f3f3f3;
       border: 2px solid #f3f3f3;
   }
+
+  /* Specification details */
+
+  .specification{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  .specs-holder{
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+  }
+
+  .spec-item{
+      background: #4860F8;
+  }
+
+  .spec-details{
+      background: #d3d3d39a;
+  }
