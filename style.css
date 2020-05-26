@@ -391,21 +391,83 @@ body{
   /* Specification details */
 
   .specification{
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+      position: relative;
+      padding: 400px 0;
   }
 
+    .sepcification--container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-bottom: 70px;
+    }
+
+    .spec-par{
+        font-size: 13px;
+        font-weight: 600;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0;
+        color: #818181f3;
+        letter-spacing: 6px;
+    }
+    
+    .spec-heading{
+        font-size: 50px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 0;
+    }
   .specs-holder{
       display: grid;
       grid-template-columns: 1fr 2fr;
+      margin-bottom: 5px;
+      font-weight: 600;
+      font-size: 15px;
   }
 
   .spec-item{
       background: #4860F8;
+      padding: 20px 45px;
+      color: #f3f3f3;
+      text-transform: uppercase;
+      margin-right: 5px;
   }
 
   .spec-details{
       background: #d3d3d39a;
+      padding: 20px 10px;
+      font-size: 12px;
+  }
+
+  .spec-vid--player{
+    background: linear-gradient(to right bottom, rgb(0, 0, 0),rgba(0, 0, 0, 0.534));
+    width: 100%;
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+    text-align: center;
+  }
+
+  .align-item--center{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #f3f3f3;
+  }
+
+  .spec-vid-heading{
+      text-transform: uppercase;
+      font-size: 60px;
+  }
+
+  .center-text{
+      display: block;
+  }
+  .btn-play-border{
   }
